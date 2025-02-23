@@ -21,7 +21,6 @@ markdown-it-py==3.0.0
 MarkupSafe==3.0.2
 mdurl==0.1.2
 moviepy==2.1.2
-mysqlclient==2.2.7
 narwhals==1.21.1
 numpy==2.2.1
 packaging==24.2

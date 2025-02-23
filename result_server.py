@@ -54,6 +54,7 @@ def main_result(placeholder, uploaded_file, model_name):
         if len(high_prob_frames) > 0:
             st.markdown("# ⚠️ Deepfake is detected ⚠️")
             frame_url = urljoin(FASTAPI_URL, max_prob_frame)
+            st.write(frame_url)
             st.image(frame_url, use_container_width=True)
         else:
             st.markdown("# No Deepfake Detected 🎉")
